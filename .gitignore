@@ -2,3 +2,4 @@
 build/
 lsyncd.conf.lua
 node_modules/
+src/vendor

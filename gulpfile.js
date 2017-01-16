@@ -6,6 +6,7 @@ var debug = require('gulp-debug');
 var styleInject = require("gulp-style-inject"); /* Plugin import inline CSS in HTML */
 
 var pug = require('gulp-pug');
+var htmlmin = require('gulp-htmlmin');
 
 /* Plugin for webserver*/
 var browserSync = require("browser-sync");
@@ -63,6 +64,7 @@ gulp.task('html', function () {
         .pipe(pug({
 			pretty: true
 		}))
+		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest('./build/'))
 		.pipe(reload({stream: true}));
 });
