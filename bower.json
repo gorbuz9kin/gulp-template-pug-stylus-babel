@@ -1,0 +1,24 @@
+{
+  "name": "bower template",
+  "authors": "Gorobzeev Denis - denis.gorobzeev@gmail.com",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.12.2",
+    "font-awesome": "latest",
+    "slick": "latest",
+    "parallax": "latest",
+    "simple-line-icons": "latest",
+    "bxslider": "latest"
+
+  }
+}
