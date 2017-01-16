@@ -21,6 +21,7 @@ var sourcemaps = require('gulp-sourcemaps');
 /* Plugin for JS */
 var notify = require("gulp-notify");
 var uglify = require('gulp-uglify');
+var babel = require('gulp-babel');
 
 var rigger = require('gulp-rigger'); /* Plugin import parts to file*/
 var  newer = require('gulp-newer'); /*  Plugin look for new changes in files */
@@ -104,6 +105,9 @@ gulp.task('js', function () {
                 };
             })
         }))
+	    .pipe(babel({
+		    presets: ['es2015']
+	    }))
         .pipe(uglify('main.min.js', {
             outSourceMap: true
         }))
