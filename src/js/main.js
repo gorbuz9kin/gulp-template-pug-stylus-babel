@@ -1,6 +1,11 @@
-//=  ../vendor/jquery/dist/jquery.js
+//= ../vendor/jquery/dist/jquery.js
+
+
 
 /*
     Custom
  */
-//= parts/functions.js
+//= parts/button-up.js
+//= parts/slow-scroll.js
+//= parts/custom.js
+//= parts/send-form.js

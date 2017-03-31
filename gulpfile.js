@@ -82,8 +82,8 @@ gulp.task('css', function () {
 		}))
 		.pipe(sourcemaps.init())
 		.pipe(stylus({
-			compress: true,
-			'include css': true
+			'include css': true,
+			compress: true
 		}))
 		.pipe(autoprefixer({
 			browsers: ['last 2 versions'],
