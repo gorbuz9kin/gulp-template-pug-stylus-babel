@@ -4,7 +4,7 @@ Manual:
 
 1. Install gulp - [ npm install gulp --save-dev ] / [ yarn add gulp ]
 
-2. Install Bower local - [ bower install ]
+2. Install Bower packages/dependencies  - [ bower install ]
 
 3. Install modules/plugins/dependencies from package.json - [ npm i ] / [yarn install]
 
